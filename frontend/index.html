@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша команда с переворотом</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Наша команда</h1>
+            <p>Наша команда и мы должны иметь обратную функцию переворота на html css</p>
+        </header>
+
+        <!-- Business Card Section -->
+        <section class="business-card-section">
+            <div class="card-container">
+                <div class="card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/Photo1.jpg" alt="Магистр киски твоей матери" />
+                            <p>Магистр киски твоей матери</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Опытный фронтенд-разработчик и дизайнер. Любит экспериментировать с анимациями и эффектами.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/Photo2.jpg" alt="Ишак - Рекрут в доте" />
+                            <p>Ишак - Рекрут в доте</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Начинающий гейм-дизайнер, обожает стратегические игры и командные проекты.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/Photo3.jpg" alt="Яйцебритый араб" />
+                            <p>Яйцебритый араб</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Бэкенд-мастер с чувством юмора, эксперт в оптимизации и архитектуре сервисов.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/Photo4.jpg" alt="Мой батя на свадьбе" />
+                            <p>Мой батя на свадьбе</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Специалист по DevOps и CI/CD. Следит за стабильностью и надежностью наших приложений.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="this.classList.toggle('flipped')">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="images/Photo5.jpg" alt="Альфа-самец" />
+                            <p>Альфа-самец</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Лидер команды, менеджер проектов и вдохновитель. Организует работу и мотивирует всех.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contact-section">
+            <h2>Связаться с нами</h2>
+            <form action="https://formspree.io/f/your-id" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                    <div class="email-validation" id="emailValidation"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                </div>
+                
+                <button type="submit" class="send-btn">Отправить</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Наша команда. Все права защищены.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
