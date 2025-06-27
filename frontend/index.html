@@ -1,87 +1,87 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Наша команда с переворотом</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Team with Flip Cards</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Наша команда</h1>
-    </header>
+  <header>
+    <h1>Our Team</h1>
+  </header>
 
-    <section class="form-section">
-        <h2>Связаться с нами</h2>
-        <form action="https://formspree.io/f/your-id" method="POST">
-            <input type="email" name="email" placeholder="Ваш email" required />
-            <textarea name="message" placeholder="Ваше сообщение" required></textarea>
-            <button type="submit">Отправить</button>
-        </form>
-    </section>
+  <section class="form-section">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-id" method="POST">
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
-    <section class="gallery">
-        <div class="card" onclick="this.classList.toggle('flipped')">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="images/Photo1.jpg" alt="Магистр киски твоей матери" />
-                    <p>Магистр киски твоей матери</p>
-                </div>
-                <div class="card-back">
-                    <p>Опытный фронтенд-разработчик и дизайнер. Любит экспериментировать с анимациями и эффектами.</p>
-                </div>
-            </div>
+  <section class="gallery">
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="images/Photo1.jpg" alt="Master of Your Mother's Pussy" />
+          <p>Master of Your Mother's Pussy</p>
         </div>
-
-        <div class="card" onclick="this.classList.toggle('flipped')">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="images/Photo2.jpg" alt="Ишак - Рекрут в доте" />
-                    <p>Ишак - Рекрут в доте</p>
-                </div>
-                <div class="card-back">
-                    <p>Начинающий гейм-дизайнер, обожает стратегические игры и командные проекты.</p>
-                </div>
-            </div>
+        <div class="card-back">
+          <p>Experienced frontend developer and designer. Loves experimenting with animations and effects.</p>
         </div>
+      </div>
+    </div>
 
-        <div class="card" onclick="this.classList.toggle('flipped')">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="images/Photo3.jpg" alt="Яйцебритый араб" />
-                    <p>Яйцебритый араб</p>
-                </div>
-                <div class="card-back">
-                    <p>Бэкенд-мастер с чувством юмора, эксперт в оптимизации и архитектуре сервисов.</p>
-                </div>
-            </div>
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="images/Photo2.jpg" alt="Donkey - Dota Recruit" />
+          <p>Donkey - Dota Recruit</p>
         </div>
-
-        <div class="card" onclick="this.classList.toggle('flipped')">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="images/Photo4.jpg" alt="Мой батя на свадьбе" />
-                    <p>Мой батя на свадьбе</p>
-                </div>
-                <div class="card-back">
-                    <p>Специалист по DevOps и CI/CD. Следит за стабильностью и надежностью наших приложений.</p>
-                </div>
-            </div>
+        <div class="card-back">
+          <p>Beginner game designer, loves strategic games and team projects.</p>
         </div>
+      </div>
+    </div>
 
-        <div class="card" onclick="this.classList.toggle('flipped')">
-            <div class="card-inner">
-                <div class="card-front">
-                    <img src="images/Photo5.jpg" alt="Альфа-самец" />
-                    <p>Альфа-самец</p>
-                </div>
-                <div class="card-back">
-                    <p>Лидер команды, менеджер проектов и вдохновитель. Организует работу и мотивирует всех.</p>
-                </div>
-            </div>
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="images/Photo3.jpg" alt="Egg-headed Arab" />
+          <p>Egg-headed Arab</p>
         </div>
-    </section>
+        <div class="card-back">
+          <p>Backend master with a sense of humor, expert in optimization and service architecture.</p>
+        </div>
+      </div>
+    </div>
 
-    <footer>&copy; 2025 Наша команда. Все права защищены.</footer>
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="images/Photo4.jpg" alt="My Dad at Wedding" />
+          <p>My Dad at Wedding</p>
+        </div>
+        <div class="card-back">
+          <p>DevOps and CI/CD specialist. Ensures stability and reliability of our applications.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="images/Photo5.jpg" alt="Alpha Male" />
+          <p>Alpha Male</p>
+        </div>
+        <div class="card-back">
+          <p>Team leader, project manager and inspirer. Organizes work and motivates everyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>&copy; 2025 Our Team. All rights reserved.</footer>
 </body>
-</html> 
+</html>
