@@ -270,7 +270,7 @@ footer::before {
     background: linear-gradient(45deg, #4CAF50, #66BB6A, #81C784);
 }
 
-/* Планшеты */
+/* Tablets */
 @media (max-width: 768px) {
     header {
         padding: 1.5rem;
@@ -308,7 +308,7 @@ footer::before {
     }
 }
 
-/* Мобильные устройства */
+/* Mobile devices */
 @media (max-width: 480px) {
     header {
         padding: 1rem;
@@ -373,7 +373,7 @@ footer::before {
     }
 }
 
-/* Очень маленькие экраны */
+/* Very small screens */
 @media (max-width: 360px) {
     .card {
         width: 140px;
